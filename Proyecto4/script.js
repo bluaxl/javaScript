@@ -40,4 +40,3 @@ function calculateTime(){
 }
 
 setInterval(calculateTime, 1000)
-
