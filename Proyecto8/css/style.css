@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(83, 200, 220);
+    align-items: center;
+    justify-content: center;
+}
+.noelOff{
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    background-image: url("../img/papaQuieto.png");
+    background-repeat: no-repeat;
+}
+
+.noelOff.on{
+    background-image: url("../img/papaBailando.gif");
+    background-repeat: no-repeat;
+}
+
+.boton.of{
+    pointer-events: none;
+}
+
+.boton.on{
+    cursor: pointer;
+}
+.grande{
+    display: flex;
+    align-items: center;
+
+}
+.izquierda{
+    width: 50%;
+
+}
+.derecha{
+    width: 50%;
+    height: 100vh;
+    margin-right: 15%;
+    align-items: center;
+}
+
+
+.boton{
+    text-decoration: none;
+    height: 20px;
+    width: 50px;
+    border: red 1px solid;
+    border-radius: 5px;
+}
+
+.botones{
+    margin-left: 50%;
+}
+
+.conteni{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.siglas{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 60;
+}
+
+.fecha{
+    align-items:center;
+    width: 60px;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    border: solid 2px white;
+    margin-right: 8px;
+}
+
+.complete{
+    margin-left: 120px;
+}
+h1{
+    margin-left: 20%;
+}
