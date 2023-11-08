@@ -9,7 +9,7 @@ body{
 }
 .noelOff{
     height: 100vh;
-    width: 500px;
+    width: 600px;
     display: flex;
     background-image: url("../img/papaQuieto.png");
     background-repeat: no-repeat;
@@ -46,10 +46,16 @@ body{
 
 .boton{
     text-decoration: none;
-    height: 20px;
+    height: 25px;
     width: 50px;
     border: red 1px solid;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
 }
 
 .botones{
@@ -58,6 +64,7 @@ body{
 
 .conteni{
     display: flex;
+    margin-top: 35px;
     justify-content: space-around;
     color: white;
     font-size: 25px;
@@ -77,14 +84,15 @@ body{
     align-items:center;
     width: 60px;
     border-radius: 30px;
-    padding: 8px 20px 8px 20px;
     border: solid 2px white;
-    margin-right: 8px;
 }
 
 .complete{
     margin-left: 120px;
 }
 h1{
-    margin-left: 20%;
+
+    margin-left: 13%;
+    color: red;
 }
+

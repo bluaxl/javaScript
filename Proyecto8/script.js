@@ -64,7 +64,7 @@ function cuentaRegresiva(tiempoFaltante, reloj, mensaje){
     },1000);
 };
 
-cuentaRegresiva('NOV 08 2023 17:26:00', 'cuentaRegresiva','!Feliz Navidad¡')
+cuentaRegresiva('NOV 08 2023 17:34:00', 'cuentaRegresiva','!Feliz Navidad¡')
 
 function play(){
     botonAudio.play();
