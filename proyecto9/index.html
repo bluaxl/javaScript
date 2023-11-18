@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <div class="eventos">
+        <h2 class="titulo">Próximos Eventos <img width="30px" height="30px" src="./img/logo.png" alt=""></h2>
         <div class="formulario">
-            <form action="">
-                <input type="text" id="nombreEvento">
+            <form>
+                <input type="text" id="nombreEvento" placeholder="digite el nombre evento">
                 <input type="date" id="fechaEvento">
-                <input type="submit" id="agregar" value="agregar evento">
+                <input type="submit" id="agregar" value="Agregar Evento">
             </form>
         </div>
-        <div class="listaEventos2" id="listaEventos"></div>
+        <div class="listaEventos2" id="listaEventos">
+
+        </div>
+        <a href="https://www.flaticon.es/iconos-gratis/eventos" title="eventos iconos">Eventos iconos
+            creados por Vectors Tank - Flaticon</a>
     </div>
-    <script src="./script.js"></script>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
